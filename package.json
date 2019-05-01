@@ -20,24 +20,7 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test gulp build && cross-env NODE_ENV=test gulp test",
     "lint": "eslint --fix .",
-    "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS"
-  },
-  "standard-version": {
-    "scripts": {
-      "posttag": "git push --follow-tags origin master && npm publish"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   },
   "dependencies": {
     "callsite-record": "^4.1.3",
