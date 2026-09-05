@@ -32,7 +32,7 @@
     "gulp-mocha": "^6.0.0",
     "normalize-newline": "^3.0.0",
     "read-file-relative": "^1.2.0",
-    "testcafe": "^0.20.0"
+    "testcafe": "^3.7.6"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
